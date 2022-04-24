@@ -63,7 +63,7 @@ By setting frequency parameter **f** (maximum 50M Hz), amplitude parameter **a**
 
 ​	But near the 17 MHz and 46 MHz frequencies, the signal shows a large distortion. For example: when the reference signal amplitude is set at 300 mV, the expected demodulation value R is 106 mV at the peak position of 17.55 MHz. But the measured amplitude reaches 1.422 V, resulting in a very large deviation. This signal has even exceeded the default signal acquisition range of Redpitaya ±1 V. At the position of 46.6 MHz, the amplitude also reaches[[1\]](#_msocom_1) 488 mV which is about 4.6 times the expected value. Considering that the demodulation frequency range of HF2LI has 3dB attenuation when it reaches 50 MHz, the reference signal can be further corrected.[4] As a result of the correction, the trend of the signal remains unchanged, but the amplitude will be slightly elevated in the high frequency part.
 
-​	Due to this feature of RePLIA, in order to avoid setting the same voltage value (such as a=0.3V) in a wide-range frequency sweep to damage other structural elements of the experiment, the output voltage value can be changed by compensating the value of Amp in the setting.![image-20220328135109189](C:\Users\84530\AppData\Roaming\Typora\typora-user-images\image-20220328135109189.png)
+​	Due to this feature of RePLIA, in order to avoid setting the same voltage value (such as a=0.3V) in a wide-range frequency sweep to damage other structural elements of the experiment, the output voltage value can be changed by compensating the value of Amp in the setting.
 
 #### 2.3 ReadDataFromLid
 
@@ -119,9 +119,8 @@ On the basis of 3.2 STEP02RePLIAEXP, by setting multiple frequency parameters **
 
 #### 3.5 STEP05freqsweep_check
 
-利用HF<sub>2</sub>Li标定RePLIA的信号源
+Using HF<sub>2</sub>Li to calibrate the signal source of RePLIA
 
 #### 3.6 STEP06RePLIAfreqsweep_amp
 
-重复读商用锁相的测量结果
-
+Repeated reading of commercially available phase-locked measurements
