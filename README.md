@@ -6,7 +6,7 @@ RePLIA - FPGA Based Lock-in Amplifier
 
 ### 0 Preparation before use
 
-Please refer to the official websites of [RePLIA](https://github.com/WarwickEPR/RePLIA),[LabOne](https://github.com/zhinst/labone-api-examples)and [Red Pitaya](https://redpitaya.com/documentation/) to complete the environment configuration and the steps for installing the lower computer program.
+Please refer to the official websites of [RePLIA](https://github.com/WarwickEPR/RePLIA),[LabOne](https://github.com/zhinst/labone-api-examples)and [Red Pitaya],[SSH For Matlab (v2)](https://ww2.mathworks.cn/matlabcentral/fileexchange/35409-ssh-sftp-scp-for-matlab-v2)and [Red Pitaya](https://redpitaya.com/documentation/) to complete the environment configuration and the steps for installing the lower computer program.
 
 
 
